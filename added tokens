@@ -50,7 +50,7 @@
                         },
                         body: await encodeValues({
                             name: x.name,
-                            addedTokens: 1000,
+                            addedTokens: 1000,=new content./""[]()
                             addedXp: 500
                         }, e.secret)
                     }).then(() => alert('Added daily rewards!')).catch(() => alert('There was an error when adding rewards!'));;
